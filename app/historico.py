@@ -11,3 +11,12 @@ def render():
     df = pd.DataFrame(st.session_state.history)
 
     st.dataframe(df, use_container_width=True)
+
+    csv = df.to_csv(index=False).encode("utf-8")
+
+    st.download_button(
+        label="Exportar histórico (CSV)",
+        data=csv,
+        file_name="historico_avaliacoes.csv",
+        mime="text/csv"
+    )
