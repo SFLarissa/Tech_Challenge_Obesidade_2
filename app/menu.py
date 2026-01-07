@@ -1,7 +1,11 @@
 import streamlit as st
+from pathlib import Path
 
 def render():
-    st.image("assets/2.png", use_container_width=True)
+    BASE_DIR = Path(__file__).resolve().parent
+    IMAGE_PATH = BASE_DIR / "assets" / "2.png"
+
+    st.image(IMAGE_PATH, use_container_width=True)
 
     st.subheader("Tecnologia inteligente para apoio do diagnóstico e à prevenção da obesidade")
 
