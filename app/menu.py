@@ -1,7 +1,7 @@
 import streamlit as st
 
 def render():
-    st.title("🏥 Peso Saudável")
+    st.image("assets/2.png", use_container_width=True)
 
     st.subheader("Tecnologia inteligente para apoio do diagnóstico e à prevenção da obesidade")
 

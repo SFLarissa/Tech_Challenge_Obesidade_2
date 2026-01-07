@@ -7,7 +7,7 @@ init_state()
 
 st.set_page_config(
     page_title="PesoSaudável",
-    page_icon="🏥",
+    page_icon="assets/1.png",
     layout="wide"
 )
 
