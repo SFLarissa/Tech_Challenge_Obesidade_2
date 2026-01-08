@@ -3,11 +3,16 @@ import menu,formulario,historico,analise
 
 from state import init_state
 
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
+ICON_PATH = BASE_DIR / "assets" / "1.png"
+
 init_state()
 
 st.set_page_config(
     page_title="PesoSaudável",
-    page_icon="assets/1.png",
+    page_icon=str(ICON_PATH),
     layout="wide"
 )
 
