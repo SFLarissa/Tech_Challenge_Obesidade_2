@@ -1,6 +1,6 @@
 
 # 🔍 Tech Challenge — Fase 4  
-## Previsão de Tendência do IBOVESPA (Alta ou Baixa)
+## Modelo Preditivo - Peso Saudável 
 
 Este repositório contém a entrega final do **Tech Challenge - Fase 4** do curso de pós-graduação em Data Analytics, no qual o objetivo principal foi desenvolver um modelo preditivo para auxiliar os médicos e médicas a prever se uma pessoa pode ter obesidade. 
 
